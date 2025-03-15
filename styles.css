@@ -9,9 +9,9 @@ body {
 
 /* Container Styles */
 .container {
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px #1734da80;
     margin: 0 auto;
     padding: 20px;
     height: 500px;

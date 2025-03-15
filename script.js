@@ -76,11 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to update the theme icon
     const updateThemeIcon = () => {
         if (document.body.classList.contains('dark')) {
-            themeIcon.classList.remove('fa-sun');
-            themeIcon.classList.add('fa-moon'); // Change to moon icon in dark mode
-        } else {
             themeIcon.classList.remove('fa-moon');
-            themeIcon.classList.add('fa-sun'); // Change to sun icon in light mode
+            themeIcon.classList.add('fa-sun'); // Change to moon icon in dark mode
+        } else {
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon'); // Change to sun icon in light mode
         }
     };
 
