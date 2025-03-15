@@ -73,10 +73,10 @@ header {
 button {
     cursor: pointer;
     font-size: 16px;
-    padding:10px;
+    padding:5px 10px;
     border: none;
-    background-color: transparent;
-    color: #000000;
+    color: #ffffff; /* Ensure text color is visible */
+    background-color: #007bff; /* Button background */
     border-radius: 5px;
 }
 
@@ -120,14 +120,6 @@ body.dark button:hover {
         width: 300px; /* Keep the same width on smaller screens */
 
         height: 500px; /* Keep the same height on smaller screens */
-
-    }
-
-    button {
-
-        width: 100%; /* Make buttons full width on small screens */
-
-        font-size: 16px; /* Ensure font size is readable */
 
     }
 
