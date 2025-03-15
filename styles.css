@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    width: 35%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+#task-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#task-input, #due-date {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#task-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 300px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+
+/* Button Styles */
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 5px;
+}
+
+button:hover {
+   background-color: #007bff;
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+body.dark .container {
+    border-color: #666;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+body.dark .task {
+    background-color: #444;
+    border-color: #666;
+}
+
+body.dark button {
+    background-color: transparent;
+    color: #fff;
+}
+
+body.dark button:hover {
+    background-color: #777;
+}
