@@ -42,6 +42,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    text-align: center;
 }
 
 #task-list {
@@ -75,8 +76,8 @@ button {
     font-size: 16px;
     padding:5px 10px;
     border: none;
-    color: #ffffff; /* Ensure text color is visible */
-    background-color: #007bff; /* Button background */
+    background-color: transparent;
+    color: #000000;
     border-radius: 5px;
 }
 
@@ -121,6 +122,10 @@ body.dark button:hover {
 
         height: 500px; /* Keep the same height on smaller screens */
 
+    }
+
+    #task-input, #due-date {
+        font-size: 16px;
     }
 
 }
